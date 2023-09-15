@@ -1,0 +1,13 @@
+{
+  "dockerFile": "./Dockerfile",
+  "build": {
+    "args": {
+      "FLUTTER_VERSION": "master"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["dart-code.flutter"]
+    }
+  }
+}
